@@ -1,0 +1,24 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: serif;
+}
+#nav {
+    text-align: center;
+    background-color: rgb(137, 137, 252);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#nav li{
+    display: inline;
+    padding: 5px ;
+}
+
+#highligh {
+    text-align: center;
+    background-color: #efefef;
+    padding: 10px;
+}
+#highligh img {
+    width: 80%;
+}
