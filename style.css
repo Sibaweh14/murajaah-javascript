@@ -24,9 +24,19 @@ body {
 }
 .article {
     background-color: #efefef;
-    width: 290px;
-    padding: 5px;
+    width: 280px;
+    padding: 10px;
     margin: 10px;
     float: left;
+
+}
+#content {
+    overflow: auto;
+}
+
+#footer{
+    background-color: #efefef;
+    padding: 10px;
+    
 
 }

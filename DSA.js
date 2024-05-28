@@ -39,8 +39,15 @@ function Animal(name,age){
     }
     this.introduce = () => {
         console.log(`hello, i'm ${this.name}`);
+    }
 
-
+    function Cat(name, age, color){
+        Animal.call(this, name, age);
+        this.color = color;
+        this.meow = function(){
+            console.log("Meow");
+        }
+        
     }
     
 }
